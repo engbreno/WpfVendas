@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfVendas.ViewModels;
 
 namespace WpfVendas.Pages
 {
@@ -23,6 +24,7 @@ namespace WpfVendas.Pages
         public pageClientes()
         {
             InitializeComponent();
+            DataContext = new ClienteViewModel();
         }
     }
 }

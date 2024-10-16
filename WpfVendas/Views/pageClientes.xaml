@@ -10,11 +10,19 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>  <!-- Linha para os botões -->
+            <RowDefinition Height="*"/>    <!-- Linha para o DataGrid -->
         </Grid.RowDefinitions>
 
-        <!-- DataGrid para listar clientes -->
+        <!-- StackPanel para organizar os botões horizontalmente -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Left" Margin="10">
+            <Button Content="Adicionar" Width="100" Margin="5"/>
+            <Button Content="Editar" Width="100" Margin="5"/>
+            <Button Content="Excluir" Width="100" Margin="5"/>
+            <Button Content="Atualizar" Width="100" Margin="5"/>
+        </StackPanel>
+
+        <!-- DataGrid para exibir os clientes -->
         <DataGrid Grid.Row="1" ItemsSource="{Binding Clientes}"
                   SelectedItem="{Binding SelectedCliente}"
                   AutoGenerateColumns="False"

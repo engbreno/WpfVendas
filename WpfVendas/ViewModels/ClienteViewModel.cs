@@ -29,10 +29,7 @@ namespace WpfVendas.ViewModels
         {
             try
             {
-                // URL da sua API MVC para listar os clientes
                 var apiUrl = "https://sua-api-endereco/api/clientes";
-
-                // Fazendo a requisição GET para buscar os clientes
                 var clientesDaApi = await _httpClient.GetFromJsonAsync<Cliente[]>(apiUrl);
 
                 if (clientesDaApi != null)
@@ -45,7 +42,7 @@ namespace WpfVendas.ViewModels
             }
             catch (Exception ex)
             {
-                // Tratar erros de conexão ou resposta da API
+
                 Console.WriteLine($"Erro ao buscar clientes: {ex.Message}");
             }
         }

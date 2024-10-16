@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\breno\\source\\repos\\WpfVendas\\WpfVendas\\WpfVendas.csproj",
+      "projectUniqueName": "Z:\\GitHub\\WpfVendas\\WpfVendas\\WpfVendas.csproj",
       "projectName": "WpfVendas",
-      "projectPath": "C:\\Users\\breno\\source\\repos\\WpfVendas\\WpfVendas\\WpfVendas.csproj",
+      "projectPath": "Z:\\GitHub\\WpfVendas\\WpfVendas\\WpfVendas.csproj",
       "packagesPath": "C:\\Users\\breno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\breno\\source\\repos\\WpfVendas\\WpfVendas\\obj\\",
+      "outputPath": "Z:\\GitHub\\WpfVendas\\WpfVendas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\breno\\AppData\\Roaming\\NuGet\\NuGet.Config",

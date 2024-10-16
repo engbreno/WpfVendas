@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfVendas.Pages;
 
 namespace WpfVendas
 {
@@ -19,6 +20,11 @@ namespace WpfVendas
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnClientes_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Content = new pageClientes();
         }
     }
 }
